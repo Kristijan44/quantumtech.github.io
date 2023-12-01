@@ -31,7 +31,7 @@
     </header>
 
     <div class="twoitems flex">  
-        <form id="zakazivanje" action="" method="">
+        <form class="zakazivanje flex" action="" method="">
           <h1>Zakažite servis:</h1>
           <fieldset>
             <input placeholder="Vaše ime" type="text" name="ime" required/>
@@ -46,6 +46,12 @@
             <input placeholder="Vaš broj telefona" type="tel" name="phone" />
           </fieldset>
           <fieldset>
+              <label for="date">Unesite datum:</label>
+              <input type="date" name="date"/>
+              <label for="time">Unesite vreme:</label>
+              <input type="time" name="time"/>
+          </fieldset>
+          <fieldset>
               <h3>Koji uređaj je u pitanju?</h3>
               <div id="checks">
                 <input type="radio" name="grupa1" value="value1"/>Desktop računar
@@ -53,6 +59,7 @@
               </div>
           </fieldset>
           <fieldset>
+            <h2>Molimo Vas da detaljno opišete Vaš problem.</h2>
             <textarea placeholder="Opišite Vaš problem..." required></textarea>
           </fieldset>
           <fieldset>
@@ -61,7 +68,12 @@
             </div>
           </fieldset>
         </form>
-      </div>
+          <div class="right-item flex">
+            <h2>Kako do nas?</h2>
+            <iframe class="google-map flex" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d181139.45821406285!2d20.25779095099791!3d44.815370403417944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7aa3d7b53fbd%3A0x1db8645cf2177ee4!2sBelgrade!5e0!3m2!1sen!2srs!4v1701467109512!5m2!1sen!2srs" 
+            width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+    </div>
 
         <div class="container height60 flex">
             <footer>

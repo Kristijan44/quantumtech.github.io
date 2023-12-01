@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+<item>
+<title>QuantumTech</title>
+<link>https://kristijan44.github.io/quantumtech.github.io/</link>
+<description>Prodaja i servisiranje računara</description>
+</item>
+<item>
+<title>Gaming računari</title>
+<link>https://kristijan44.github.io/quantumtech.github.io/prebuilt.html</link>
+<description>Pogledajte gaming računare koji su trenutno na stanju</description>
+</item>
+<item>
+<title>Servis</title>
+<link>https://kristijan44.github.io/quantumtech.github.io/services.html</link>
+<description>Pretražite uslugu servisa</description>
+</item>
+</channel>
+</rss>
