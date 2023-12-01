@@ -1,0 +1,260 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+    background-color: #e0e0e0;
+    padding-top:67px;
+}
+
+.page-container{
+    position: relative;
+    min-height: 100vh;
+}
+
+.white{
+    background-color:rgba(255, 255, 255, 0.856);
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.3);
+}
+
+.height60{height: 60px;}
+
+.containerwd80{
+    width: 80%;
+    margin:0px auto;
+}
+
+.container{
+    width:100%;
+    margin:0px auto;
+}
+
+.flex{
+    display:flex;
+}
+/* Navigation */
+header{
+    margin: 0px auto;
+    padding:15px;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+}
+
+.navbar{
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.nav{margin-right: 70px;}
+
+.nav ul{
+    padding: 0px;
+}
+
+.nav ul li{
+    display: inline;
+    padding: 0px 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo{margin-left: 70px;}
+
+.logo a{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.logo a:link{
+    color:black;
+    text-decoration: none;
+}
+
+.logo a:visited{
+    color:black;
+}
+
+.logo a:active{
+    color:#bdd3ff;
+}
+
+.logo a:hover{
+    color:#0552ed;
+    transform: scale(1.2);
+    text-shadow: none;
+} 
+
+.nav a:link{
+    color:black;
+    text-decoration: none;
+}
+
+.nav a:visited{
+    color:black;
+}
+
+.nav a:active{
+    color:#bdd3ff;
+}
+
+.nav a:hover{
+    color:#0552ed;
+    transform: scale(1.2);
+    text-shadow: none;
+} 
+
+/* Page content */
+
+.background{
+    width: 100%;
+    height: 550px;
+    background-image: url("../img/repair.jpg");
+    background-size:cover;
+    background-color: rgb(56, 56, 56);
+    background-blend-mode: multiply;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.background h1{
+    color: #e0e0e0;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-top: 90px;
+}
+
+.button{
+    background-color: #0552ed;
+    border: none;
+    color: white;
+    padding: 13px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.button1{
+    background-color: #0552ed; 
+    color: white; 
+
+}
+
+.button1:hover{
+    background-color: #ffffff;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.footer{
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#homepagetxt{
+    background-color: rgb(190, 190, 190);
+    padding: 30px 30px;
+}
+
+#homepagetxt h1{
+    text-align: center;
+}
+
+#homepagetxt p{
+    text-align: center;
+    font-size: 17px;
+}
+
+#homepagetxt b{
+    color:#094cd3;
+}
+
+.twoitems{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contentbox{
+    width: 500px;
+    height: auto;
+    margin: 25px 55px 50px 55px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contentbox img{
+    width: 500px;
+    height: 450px;
+}
+
+.contentbox h1{
+    text-transform: uppercase;
+    text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    border: 2px solid #353d4d42;
+    background-color: #e2e5eca6;
+    border-radius: 15px;
+    padding:5px;
+}
+
+.contentbox p{
+    margin-top: 5px;
+}
+.contentbox span{font-weight: bold; font-size: 25px; color:#0552ed;} 
+.contentbox ul{margin-left: -190px; margin-bottom: 15px;}
+.contentbox ul li{padding-top:5px;}
+
+.threerow{
+    width: 75%;
+    margin: 50px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pcblock{
+    width: 400px;
+    height: auto;
+}
+.pcblock img{width: 398px;}
+.pcblock ul{list-style: none;}
+
+/* Footer */
+footer{
+    width: 100%;
+    background-color: rgb(190, 190, 190);
+    padding: 20px 0px;
+    bottom:0;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.footersection{
+    margin:0px auto;
+    width: 70%;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footersection a:link{
+    color:black;
+    text-decoration: none;
+}
+
+.footersection a:visited{
+    color:black;
+}
+
+.icontext img{padding-right: 3px;margin-bottom: -3px;}
+
