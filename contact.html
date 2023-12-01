@@ -13,24 +13,55 @@
     </head>
     <body>
     <div class="page-container">
-        <header>
-            <div class="container white flex">
-                <div class="navbar white flex">
-                    <div class="logo">
-                        <a href="index.html">QuantumTech</a>
-                    </div>
-                    <nav class="nav flex">
-                        <ul>
-                            <li><a href="index.html">Početna</a></li>
-                            <li><a href="prebuilt.html">Računari</a></li>
-                            <li><a href="services.html">Usluge</a></li>
-                            <li><a href="contact.html">Kontakt</a></li>
-                            <li><a href="about.html">O autoru</a></li>
-                        </ul>
-                    </nav>
+        <header class="white">
+            <div class="navbar flex">
+                <div class="logo">
+                    <a href="index.html">QuantumTech</a>
                 </div>
+                <nav class="nav flex">
+                    <ul>
+                        <li><a href="index.html">Početna</a></li>
+                        <li><a href="prebuilt.html">Računari</a></li>
+                        <li><a href="services.html">Usluge</a></li>
+                        <li><a href="contact.html">Kontakt</a></li>
+                        <li><a href="about.html">O autoru</a></li>
+                    </ul>
+                </nav>
             </div>
-        </header>
+    </header>
+
+    <div class="twoitems flex">  
+        <form id="zakazivanje" action="" method="">
+          <h1>Zakažite servis:</h1>
+          <fieldset>
+            <input placeholder="Vaše ime" type="text" name="ime" required/>
+          </fieldset>
+              <fieldset>
+            <input placeholder="Vaše prezime" type="text" name="prezime" required/>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Vaša mejl adresa" type="email" name="mail"  required/>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Vaš broj telefona" type="tel" name="phone" />
+          </fieldset>
+          <fieldset>
+              <h3>Koji uređaj je u pitanju?</h3>
+              <div id="checks">
+                <input type="radio" name="grupa1" value="value1"/>Desktop računar
+                <input type="radio" name="grupa1" value="value2"/>Laptop<br>
+              </div>
+          </fieldset>
+          <fieldset>
+            <textarea placeholder="Opišite Vaš problem..." required></textarea>
+          </fieldset>
+          <fieldset>
+            <div id="buttoncenter flex">
+              <button name="submit" type="submit" class="button button2">Submit</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
 
         <div class="container height60 flex">
             <footer>
